@@ -1,5 +1,16 @@
 apiVersion: v1
 entries:
+  sealed-secret:
+  - apiVersion: v2
+    appVersion: 1.16.0
+    created: "2025-03-19T20:49:34.337409707Z"
+    description: A Helm chart for Kubernetes
+    digest: d6973ab9a4ade4c5384ac1e1e4c2aa39a37da735ec62f65959baf003e74d0493
+    name: sealed-secret
+    type: application
+    urls:
+    - https://github.com/NenadPantelic/devops-helm-charts/releases/download/sealed-secret-0.1.0/sealed-secret-0.1.0.tgz
+    version: 0.1.0
   spring-boot-rest-api:
   - apiVersion: v2
     appVersion: 1.16.0
@@ -11,4 +22,4 @@ entries:
     urls:
     - https://github.com/NenadPantelic/devops-helm-charts/releases/download/spring-boot-rest-api-0.1.0/spring-boot-rest-api-0.1.0.tgz
     version: 0.1.0
-generated: "2025-03-18T18:51:58.885098165Z"
+generated: "2025-03-19T20:49:34.337418093Z"
